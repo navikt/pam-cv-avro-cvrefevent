@@ -1,0 +1,10 @@
+{
+  "namespace": "no.nav.arbeid.cv.events",
+  "type": "record",
+  "name": "ArenaCvReferanseEvent",
+  "fields": [
+    {"name": "personId", "type": "long"},
+    {"name": "fodselsnummer", "type": ["string", "null"]},
+    {"name": "formidlingsgruppekode", "type": "string"}
+  ]
+}
