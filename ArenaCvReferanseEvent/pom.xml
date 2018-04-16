@@ -9,7 +9,7 @@
 	<version>1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>arena-cv-referanse</name>	
+	<name>arena-cv-referanse</name>
 	<description>Events for publisering fra av referanser til Arena CVer</description>
 
 	<properties>
@@ -17,15 +17,15 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
-	<dependencies>		
+	<dependencies>
 		<dependency>
 			<groupId>org.apache.avro</groupId>
 			<artifactId>avro</artifactId>
 			<version>${avro.version}</version>
-		</dependency>		
+		</dependency>
 
 		<!-- test -->
-		
+
 	</dependencies>
 
 	<build>
@@ -52,8 +52,8 @@
 	</build>
 
 	<scm>
-    <connection>scm:git:ssh://git@stash.devillo.no:7999/pam/pam-cv-avro.git</connection>
-    <developerConnection>scm:git:ssh://git@stash.devillo.no:7999/pam/pam-cv-avro.git</developerConnection>
+    <connection>scm:git:ssh://git@github.com:navikt/pam-cv-avro-cvrefevent.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:navikt/pam-cv-avro-cvrefevent.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
