@@ -13,8 +13,11 @@
 	<description>Events for publisering fra av referanser til Arena CVer</description>
 
 	<properties>
-		<avro.version>1.8.1</avro.version>
+		<avro.version>1.10.0</avro.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>8</java.version>
+		<maven.compiler.source>8</maven.compiler.source>
+		<maven.compiler.target>8</maven.compiler.target>
 	</properties>
 
 	<dependencies>
@@ -51,24 +54,18 @@
 		</plugins>
 	</build>
 
-	<scm>
-    <connection>scm:git:ssh://git@github.com:navikt/pam-cv-avro-cvrefevent.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com:navikt/pam-cv-avro-cvrefevent.git</developerConnection>
-    <tag>HEAD</tag>
-  </scm>
 
 	<distributionManagement>
 		<repository>
-			<id>m2internal</id>
-			<name>NAV Maven2 Internal Repository</name>
-			<url>https://repo.adeo.no/repository/maven-releases/</url>
+			<id>github</id>
+			<url>https://maven.pkg.github.com/navikt/pam-cv-avro-cvrefevent</url>
 		</repository>
-		<snapshotRepository>
-			<id>m2snapshot</id>
-			<name>NAV Maven2 Snapshot Repository</name>
-			<url>https://repo.adeo.no/repository/maven-snapshots/</url>
-			<uniqueVersion>false</uniqueVersion>
-		</snapshotRepository>
 	</distributionManagement>
+	<scm>
+    	<connection>scm:git:ssh://git@github.com:navikt/pam-cv-avro-cvrefevent.git</connection>
+    	<developerConnection>scm:git:ssh://git@github.com:navikt/pam-cv-avro-cvrefevent.git</developerConnection>
+    	<tag>HEAD</tag>
+  	</scm>
+
 
 </project>
